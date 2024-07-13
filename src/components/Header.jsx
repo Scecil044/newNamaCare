@@ -7,7 +7,7 @@ export default function Header() {
     const [toggleMobile, setToggleMobile] =useState(false)
   return (
     <>
-      <header className="w-full relative sticky top-0 flex items-center justify-between md:justify-around py-2 px-4 min-h-16 z-50 shadow-md bg-appGreen text-white border-b-4 border-b-white">
+      <header className="w-full relative sticky top-0 flex items-center justify-between md:justify-around py-2 px-4 min-h-16 z-40 shadow-md bg-appGreen text-white border-b-4 border-b-white">
       <Link to="/" className="flex items-center text-lg transition-all duration-500">
                     <h1 className="text-2xl">N</h1>
                     <span className="mt-2 flex items-center">
